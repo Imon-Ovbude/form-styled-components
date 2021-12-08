@@ -4,7 +4,7 @@ import { Container } from './styles/Container.styled';
 import { Button } from './styles/Button.styled';
 import { Flex } from './styles/Flex.styled';
 
-function Header() {
+const Header = () => {
   return (
     <StyledHeader>
       <Container>
@@ -30,6 +30,6 @@ function Header() {
       </Container>
     </StyledHeader>
   );
-}
+};
 
 export default Header;
