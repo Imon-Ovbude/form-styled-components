@@ -1,10 +1,17 @@
 import React from 'react';
-import { StyledHeader } from './styles/Header.styled';
+import { StyledHeader, Nav, Logo } from './styles/Header.styled';
+import { Container } from './styles/Container.styled';
+import { Button } from './styles/Button.styled';
 
 function Header() {
   return (
     <StyledHeader>
-      <h1>Hubble</h1>
+      <Container>
+        <Nav>
+          <Logo src='./images/logo.svg' alt='logo'></Logo>
+          <Button>Try It Free</Button>
+        </Nav>
+      </Container>
     </StyledHeader>
   );
 }
